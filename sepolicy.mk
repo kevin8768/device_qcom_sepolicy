@@ -17,6 +17,7 @@ ifeq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
         device/qcom/sepolicy/qva/vendor/common/sysmonapp \
         device/qcom/sepolicy/qva/vendor/ssg \
         device/qcom/sepolicy/timeservice \
+        device/qcom/sepolicy/qva/vendor/qwesas \
         device/qcom/sepolicy/qva/vendor/common
 
     ifeq ($(TARGET_SEPOLICY_DIR),)
